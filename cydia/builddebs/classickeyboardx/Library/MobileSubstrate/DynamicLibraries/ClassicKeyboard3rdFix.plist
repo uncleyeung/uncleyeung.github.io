@@ -1,0 +1,9 @@
+{
+	Filter = {
+		Bundles = (
+			"com.sogou.sogouinput.basekeyboard",
+			"com.baidu.inputMethod.keyboard",
+			"com.iflytek.iflyinput.keyboard"
+		);
+	};
+}

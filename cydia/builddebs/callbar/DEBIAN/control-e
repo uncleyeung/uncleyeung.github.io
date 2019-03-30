@@ -1,0 +1,12 @@
+Package: com.uncleyeung.callbarxs
+Name: CallBar XS (iOS 12)
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
+Conflicts: net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Version: 2.1
+Architecture: iphoneos-arm
+Description: Don't let incoming calls interrupt you!
+Depiction: http://uncleyeung.github.io/
+Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Author: Elias Limneos <limneoselias@gmail.com>
+Section: System

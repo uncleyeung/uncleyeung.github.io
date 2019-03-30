@@ -1,0 +1,12 @@
+Package: com.uncleyeung.douyin
+Name: 抖音助手
+Version: 1.0.0
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.uncleyeung.douyin
+Architecture: iphoneos-arm
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Section: application
+Description: 抖音助手 下载去水印
+Homepage: http://uncleyeung.github.io/
+Maintainer: uncleyeung <java.yang.bo@outlook.com>

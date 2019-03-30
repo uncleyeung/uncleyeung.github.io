@@ -1,0 +1,12 @@
+Package: com.mumiantech.classickeyboardx
+Name: classickeyboardx
+Version: 1.0.0
+Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.mumiantech.classickeyboardx
+Architecture: iphoneos-arm
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Section: application
+Description: iphonex去除键盘空白
+Homepage: http://uncleyeung.github.io/
+Maintainer: uncleyeung <java.yang.bo@outlook.com>

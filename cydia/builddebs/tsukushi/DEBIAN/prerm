@@ -1,0 +1,69 @@
+#!/bin/sh
+declare -a cydia 
+cydia=($CYDIA) 
+echo "开始卸载插件"
+
+#mv LanguageSupport
+mv /System/Library/Fonts/LanguageSupport/PingFang.ttc_ /System/Library/Fonts/LanguageSupport/PingFang.ttc
+#mv Core
+mv /System/Library/Fonts/Core/Avenir.ttc_ /System/Library/Fonts/Core/Avenir.ttc
+mv /System/Library/Fonts/Core/HelveticaNeueExtras.ttc_ /System/Library/Fonts/Core/HelveticaNeueExtras.ttc
+mv /System/Library/Fonts/Core/Fallback.ttf_ /System/Library/Fonts/Core/Fallback.ttf
+mv /System/Library/Fonts/Core/HelveticaNeueInterface.ttc_ /System/Library/Fonts/Core/HelveticaNeueInterface.ttc
+mv /System/Library/Fonts/Core/Helvetica.ttc_ /System/Library/Fonts/Core/Helvetica.ttc
+mv /System/Library/Fonts/Core/HelveticaNeueLights.ttc_ /System/Library/Fonts/Core/HelveticaNeueLights.ttc
+mv /System/Library/Fonts/Core/HelveticaNeue.ttc_ /System/Library/Fonts/Core/HelveticaNeue.ttc
+mv /System/Library/Fonts/Core/PhonepadTwo.ttf_ /System/Library/Fonts/Core/PhonepadTwo.ttf
+#mv CoreAddition
+mv /System/Library/Fonts/CoreAddition/Arial.ttf_ /System/Library/Fonts/CoreAddition/Arial.ttf
+mv /System/Library/Fonts/CoreAddition/ArialBold.ttf_ /System/Library/Fonts/CoreAddition/ArialBold.ttf
+mv /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf_ /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf
+mv /System/Library/Fonts/CoreAddition/ArialItalic.ttf_ /System/Library/Fonts/CoreAddition/ArialItalic.ttf
+mv /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf_ /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf
+mv /System/Library/Fonts/CoreAddition/Keycaps.ttc_ /System/Library/Fonts/CoreAddition/Keycaps.ttc
+mv /System/Library/Fonts/CoreAddition/KeycapsPad.ttc_ /System/Library/Fonts/CoreAddition/KeycapsPad.ttc
+mv /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf_ /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf
+mv /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf_ /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf
+mv /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf_ /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf
+mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG1.otf_ /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG1.otf
+mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG2.otf_ /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG2.otf
+mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG3.otf_ /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG3.otf
+mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG4.otf_ /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG4.otf
+mv /System/Library/Fonts/CoreAddition/Verdana.ttf_ /System/Library/Fonts/CoreAddition/Verdana.ttf
+mv /System/Library/Fonts/CoreAddition/VerdanaBold.ttf_ /System/Library/Fonts/CoreAddition/VerdanaBold.ttf
+mv /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf_ /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf
+mv /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf_ /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf
+#mv CoreUI
+mv /System/Library/Fonts/CoreUI/SFUIDisplay.ttf_ /System/Library/Fonts/CoreUI/SFUIDisplay.ttf
+mv /System/Library/Fonts/CoreUI/SFUIText.ttf_ /System/Library/Fonts/CoreUI/SFUIText.ttf
+mv /System/Library/Fonts/CoreUI/SFUITextItalic.ttf_ /System/Library/Fonts/CoreUI/SFUITextItalic.ttf
+mv /System/Library/Fonts/CoreUI/TrebuchetMS.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMS.ttf
+mv /System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf
+mv /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf
+mv /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf
+echo "恢复备份完成"
+
+rm -fr /var/mobile/Library/Caches/com.apple.UIStatusBar
+rm -fr /var/root/Library/Caches/com.apple.keyboards
+rm -fr /var/mobile/Library/Caches/com.apple.keyboards
+echo "清除缓存完成"
+
+rm -rf /User/Documents/uncleyeung/tsukushi
+echo "删除:/User/Documents/uncleyeung/tsukushi及其子文件"
+echo "完成准备重启"
+echo "===20%"
+echo "=========40%"
+echo "===================60%"
+echo "=============================80%"
+echo "========================================100%"
+echo "感谢:对uncleyeung的支持"
+echo "首页:http://uncleyeung.gitbub.io"
+echo "源码:https://github.com/uncleyeung/uncleyeung.github.io"
+echo "备注:原生字体安装完可直接卸载,挽救手动替换的你"
+echo "请点击注销谢谢"
+if [[ ${CYDIA+@} ]]; then
+	eval "echo 'finish:restart' >&${cydia[0]}"
+fi
+exit 0
+
+

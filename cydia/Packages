@@ -1,0 +1,216 @@
+Package: com.mumiantech.classickeyboardx
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.mumiantech.classickeyboardx
+Filename: debs/com.mumiantech.classickeyboardx.deb
+Size: 4104
+MD5sum: 1299649e4c1cb6ccbd36e0b9e4796e27
+SHA1: 4dd6f7577e31ab734fb5db5fda5d347375263e92
+SHA256: 17ae4fbdf9cc0f970f033661b3bb63e86438f596f5997d3522bafc7d31f6a1a6
+Section: application
+Homepage: http://uncleyeung.github.io/
+Description: iphonex去除键盘空白
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Name: classickeyboardx
+
+Package: com.shawushe.main.Alipay-AntForest
+Version: 0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.shawushe.main.Alipay-AntForest_0.1-1.deb
+Size: 31820
+MD5sum: b8d43196756cc94308fb61b80695661f
+SHA1: bde36848d3744249e2593f4f4adb6aa9fc672e2c
+SHA256: 570663d63188115bc42ebaca46ec721640e6d97d2ef6d4c49d8e1cac95e75235
+Section: System
+Priority: optional
+Author: King
+Name: Alipay_AntForest
+
+Package: com.uncleyeung.callbarxs
+Version: 2.1-22
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: mobilesubstrate, preferenceloader, com.uncleyeung.limneosos
+Conflicts: net.limneos.callbarx, com.pulandr3s.audiorecorderxs, com.pulandr3s.callbarxs, com.pulandr3s.bioprotectxs, net.pulandr3s.nfcwriterx, com.pulandr3s.limneosos
+Filename: debs/com.uncleyeung.callbarsx.deb
+Size: 159400
+MD5sum: bae7e6841e105d9afdb5bf8194eedcdc
+SHA1: 07d9db723e82c5d6b738249afb5ca155fd3f0964
+SHA256: 06451647130f6b9699eff6c90218d48906c2e0907ee549227bd73c94a862a343
+Section: System
+Homepage: http://x1aomi.gtihub.io/
+Description: Change style of your calls
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.gtihub.io/
+Name: CallBar XS
+
+Package: com.uncleyeung.douyin
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.uncleyeung.douyin
+Filename: debs/com.uncleyeung.douyin_1.0.0.deb
+Size: 8704
+MD5sum: b16ae0a696fe25900acac94b2e1a5674
+SHA1: d31b92da2e8104893a3026baf88f85aabfc5ccde
+SHA256: aaed45e1b7e44e8ef34704974a7338db33edb2bea3f4506061ebd9241b33b12e
+Section: application
+Homepage: http://uncleyeung.github.io/
+Description: 抖音助手 下载去水印
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Name: 抖音助手
+
+Package: com.uncleyeung.kuaidial
+Version: 1.6-7
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: debs/com.uncleyeung.kuaidial.deb
+Size: 364096
+MD5sum: 9a4a9f726854ba64a715f716a480c73f
+SHA1: 9aaaf6ac442c28f33d67a1c9d373522973021492
+SHA256: 08d0a9ecbbfe4202e43cbd482a8098c0023005d742ae4c6008c13e90fa09d307
+Section: System
+Homepage: http://x1aomi.gtihub.io/
+Description: kuaidail
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.gtihub.io/
+Name: KuaiDial iPhone X
+
+Package: com.uncleyeung.limneosos
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <66666@qq.com>
+Depends: mobilesubstrate
+Conflicts: ru.rejail.limneosos
+Filename: debs/com.uncleyeung.Limneos.deb
+Size: 23096
+MD5sum: fb6508bcc0db54c59c1f3ecd60547678
+SHA1: 73b22b041e9ba69762dd5974fa04f06ca9da320a
+SHA256: 62149bfd2f442d1a463cccc6abdd66a82dbbb0f7a814c535cd2569ca05e172f0
+Section: System
+Homepage: http://uncleyeung.github.io/
+Description: Cure for all Limneos Tweaks
+Author: ReJail <66666@qq.com>
+Depiction: http://uncleyeung.github.io/
+Name: Limneosos
+
+Package: com.uncleyeung.native
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.uncleyeung.native
+Filename: debs/com.uncleyeung.native_1.0.0.deb
+Size: 50602700
+MD5sum: bb7727d31dc6260d10671b19a19a34e2
+SHA1: eb9bdfa748ffeec256ea6d8390c31a12bbcd729e
+SHA256: f5164515e3905b7d285ccfd030b5c5fb697047c129aa46b9962ffa4face99c46
+Section: Font
+Homepage: http://uncleyeung.github.io/
+Description: 原生字体安装完可直接卸载,挽救手动替换的你
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Name: NativeFont IOS12(原生字体)
+
+Package: com.uncleyeung.pingfang85
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.uncleyeung.pingfang85
+Filename: debs/com.uncleyeung.pingfang85.1_0_3.deb
+Size: 39704536
+MD5sum: 81111c32fe4498feeab61971bb090206
+SHA1: 6844c33b4d75029efc6e15b56e246e8d4fd24869
+SHA256: 060eeaffbbd3c6a0fe9270dcafa0c4f44873b3911a1f1d40fcfc7f0b067a2f90
+Section: Font
+Homepage: http://uncleyeung.github.io/
+Description: PingFangFont 85% IOS12
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Name: PingFangFont 85% IOS12
+
+Package: com.uncleyeung.shaonv
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.uncleyeung.shaonv
+Filename: debs/com.uncleyeung.shaonv_1.0.0.deb
+Size: 13135216
+MD5sum: 6178ea7b1338db3dc56474a3327490cf
+SHA1: 7db763916cf1d82baee29000b7c9aa7b59ea7e7a
+SHA256: f1a8fb2e18c1f57600b0798a3764d299001acdd76ab66490ccd9d220169e7f20
+Section: Font
+Homepage: http://uncleyeung.github.io/
+Description: ShaoNvFont 100% IOS12(非主流华康少女体)
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Name: ShaoNvFont 100% IOS12
+
+Package: com.uncleyeung.tengxiang9527
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.uncleyeung.tengxiang9527
+Filename: debs/com.uncleyeung.tengxiang9527_1.0.0.deb
+Size: 11104932
+MD5sum: 1978d5111cf9ef141c3da4e33a818290
+SHA1: 887f00276381577c081a6286c93b9f07f80bbe4c
+SHA256: 2c50c76c7cf8b65e51dbf9422c986aaa7c87521a7905bd8208617088e647f125
+Section: Font
+Homepage: http://uncleyeung.github.io/
+Description: TengXiangFont 95.27% IOS12
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Name: TengXiangFont 95.27% IOS12
+
+Package: org.xbmc.kodi-ios
+Version: 18.1-0
+Architecture: iphoneos-arm
+Maintainer: Memphiz
+Installed-Size: 172680
+Depends: firmware (>= 5.1)
+Filename: debs/org.xbmc.kodi-ios_18.1-0_iphoneos-arm.deb
+Size: 58539604
+MD5sum: 4d58197cddc65c95739dd0f01b221a07
+SHA1: 8c80840c18f8af84e0658365b53176af0a9eb6d0
+SHA256: 4e24411b76c09c5b745b93bd58ec957a046551b0f043e9c84e2b57bd45db1550
+Section: Multimedia
+Priority: Extra
+Homepage: http://kodi.tv/
+Description: Kodi Entertainment Center for iOS
+Author: Team-Kodi
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+Name: Kodi-iOS
+
+Package: org.xbmc.kodi-ios64
+Version: 18.1-0
+Architecture: iphoneos-arm
+Maintainer: Memphiz
+Installed-Size: 184612
+Pre-Depends: cy+cpu.arm64
+Depends: firmware (>= 7.0)
+Conflicts: org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios
+Filename: debs/org.xbmc.kodi-ios_18.1-0_iphoneos-arm64.deb
+Size: 55119368
+MD5sum: 68880cb600118cba1a8baf90d3594029
+SHA1: 9915964021e7d31ce34d7842ad1246bf373e124e
+SHA256: 1d48e142a04f6d4d22fdd6f94f416e44d73fa655fb27f4ab1cb734f3f0630cf1
+Section: Multimedia
+Priority: Extra
+Homepage: http://kodi.tv/
+Description: Kodi Entertainment Center for iOS
+Author: Team-Kodi
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+Name: Kodi-iOS (64-bit)
+

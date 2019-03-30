@@ -1,0 +1,6 @@
+#!/bin/bash
+rm /Library/MobileSubstrate/DynamicLibraries/hahahaha.dylib 2> /dev/null
+rm /Library/MobileSubstrate/DynamicLibraries/BioProtectXSHack.dylib 2> /dev/null
+rm /var/LIB/TweakInject/hahahaha.dylib 2> /dev/null
+rm /var/LIB/TweakInject/BioProtectXSHack.dylib 2> /dev/null
+exit 0

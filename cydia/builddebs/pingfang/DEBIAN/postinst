@@ -1,0 +1,106 @@
+#!/bin/sh
+declare -a cydia 
+cydia=($CYDIA)
+
+#mv LanguageSupport
+echo "mv LanguageSupport/mv Core/mv CoreAddition/mv CoreUI"
+mv /System/Library/Fonts/LanguageSupport/PingFang.ttc /System/Library/Fonts/LanguageSupport/PingFang.ttc_
+#mv Core
+mv /System/Library/Fonts/Core/Avenir.ttc /System/Library/Fonts/Core/Avenir.ttc_
+mv /System/Library/Fonts/Core/HelveticaNeueExtras.ttc /System/Library/Fonts/Core/HelveticaNeueExtras.ttc_
+mv /System/Library/Fonts/Core/Fallback.ttf /System/Library/Fonts/Core/Fallback.ttf_
+mv /System/Library/Fonts/Core/HelveticaNeueInterface.ttc /System/Library/Fonts/Core/HelveticaNeueInterface.ttc_
+mv /System/Library/Fonts/Core/Helvetica.ttc /System/Library/Fonts/Core/Helvetica.ttc_
+mv /System/Library/Fonts/Core/HelveticaNeueLights.ttc /System/Library/Fonts/Core/HelveticaNeueLights.ttc_
+mv /System/Library/Fonts/Core/HelveticaNeue.ttc /System/Library/Fonts/Core/HelveticaNeue.ttc_
+mv /System/Library/Fonts/Core/PhonepadTwo.ttf /System/Library/Fonts/Core/PhonepadTwo.ttf_
+#mv CoreAddition
+mv /System/Library/Fonts/CoreAddition/Arial.ttf /System/Library/Fonts/CoreAddition/Arial.ttf_
+mv /System/Library/Fonts/CoreAddition/ArialBold.ttf /System/Library/Fonts/CoreAddition/ArialBold.ttf_
+mv /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf_
+mv /System/Library/Fonts/CoreAddition/ArialItalic.ttf /System/Library/Fonts/CoreAddition/ArialItalic.ttf_
+mv /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf_
+mv /System/Library/Fonts/CoreAddition/Keycaps.ttc /System/Library/Fonts/CoreAddition/Keycaps.ttc_
+mv /System/Library/Fonts/CoreAddition/KeycapsPad.ttc /System/Library/Fonts/CoreAddition/KeycapsPad.ttc_
+mv /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf_
+mv /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf_
+mv /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf_
+mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG1.otf /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG1.otf_
+mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG2.otf /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG2.otf_
+mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG3.otf /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG3.otf_
+mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG4.otf /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG4.otf_
+mv /System/Library/Fonts/CoreAddition/Verdana.ttf /System/Library/Fonts/CoreAddition/Verdana.ttf_
+mv /System/Library/Fonts/CoreAddition/VerdanaBold.ttf /System/Library/Fonts/CoreAddition/VerdanaBold.ttf_
+mv /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf_
+mv /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf_
+#mv CoreUI
+mv /System/Library/Fonts/CoreUI/SFUIDisplay.ttf /System/Library/Fonts/CoreUI/SFUIDisplay.ttf_
+mv /System/Library/Fonts/CoreUI/SFUIText.ttf /System/Library/Fonts/CoreUI/SFUIText.ttf_
+mv /System/Library/Fonts/CoreUI/SFUITextItalic.ttf /System/Library/Fonts/CoreUI/SFUITextItalic.ttf_
+mv /System/Library/Fonts/CoreUI/TrebuchetMS.ttf /System/Library/Fonts/CoreUI/TrebuchetMS.ttf_
+mv /System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf /System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf_
+mv /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf_
+mv /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf_
+
+#Disable software updates
+mv /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist_
+mv /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist_
+
+echo "cp LanguageSupport/cp Core/cp CoreAddition/cp CoreUI"
+#cp LanguageSupport
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/LanguageSupport/PingFang.ttc /System/Library/Fonts/LanguageSupport/PingFang.ttc
+#cp Core
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/Core/Avenir.ttc /System/Library/Fonts/Core/Avenir.ttc
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/Core/HelveticaNeueExtras.ttc /System/Library/Fonts/Core/HelveticaNeueExtras.ttc
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/Core/Fallback.ttf /System/Library/Fonts/Core/Fallback.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/Core/HelveticaNeueInterface.ttc /System/Library/Fonts/Core/HelveticaNeueInterface.ttc
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/Core/Helvetica.ttc /System/Library/Fonts/Core/Helvetica.ttc
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/Core/HelveticaNeueLights.ttc /System/Library/Fonts/Core/HelveticaNeueLights.ttc
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/Core/HelveticaNeue.ttc /System/Library/Fonts/Core/HelveticaNeue.ttc
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/Core/PhonepadTwo.ttf /System/Library/Fonts/Core/PhonepadTwo.ttf
+#cp CoreAddition
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/Arial.ttf /System/Library/Fonts/CoreAddition/Arial.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/ArialBold.ttf /System/Library/Fonts/CoreAddition/ArialBold.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/ArialItalic.ttf /System/Library/Fonts/CoreAddition/ArialItalic.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/Keycaps.ttc /System/Library/Fonts/CoreAddition/Keycaps.ttc
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/KeycapsPad.ttc /System/Library/Fonts/CoreAddition/KeycapsPad.ttc
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG1.otf /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG1.otf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG2.otf /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG2.otf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG3.otf /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG3.otf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG4.otf /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG4.otf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/Verdana.ttf /System/Library/Fonts/CoreAddition/Verdana.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/VerdanaBold.ttf /System/Library/Fonts/CoreAddition/VerdanaBold.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreAddition/VerdanaItalic.ttf /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf
+#cp CoreUI
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreUI/SFUIDisplay.ttf /System/Library/Fonts/CoreUI/SFUIDisplay.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreUI/SFUIText.ttf /System/Library/Fonts/CoreUI/SFUIText.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreUI/SFUITextItalic.ttf /System/Library/Fonts/CoreUI/SFUITextItalic.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreUI/TrebuchetMS.ttf /System/Library/Fonts/CoreUI/TrebuchetMS.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf /System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf
+cp -f /User/Documents/uncleyeung/pingfang85/System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf
+
+
+
+rm -fr /var/mobile/Library/Caches/com.apple.UIStatusBar
+rm -fr /var/root/Library/Caches/com.apple.keyboards
+rm -fr /var/mobile/Library/Caches/com.apple.keyboards
+
+echo "=================完成=================="
+echo "感谢:对uncleyeung的支持"
+echo "首页:http://uncleyeung.gitbub.io"
+echo "源码:https://github.com/uncleyeung/uncleyeung.github.io"
+echo "备注:原生苹方字体缩小85%由心雨提供字体源文件"
+echo "备注:已经禁用手机系统升级,卸载恢复(Disable Software Update,Uninstall Recovery)"
+echo "谢谢"
+echo "=================完成=================="
+if [[ ${CYDIA+@} ]]; then
+	eval "echo 'finish:restart' >&${cydia[0]}"
+fi
+exit 0

@@ -1,0 +1,12 @@
+Package: com.uncleyeung.limneosos
+Name: Limneosos
+Version: 1.1.2
+Depends: mobilesubstrate
+Conflicts: ru.rejail.limneosos
+Architecture: iphoneos-arm
+Author: ReJail <66666@qq.com>
+Depiction: http://uncleyeung.github.io/
+Section: System
+Description: Cure for all Limneos Tweaks
+Homepage: http://uncleyeung.github.io/
+Maintainer: uncleyeung <66666@qq.com>

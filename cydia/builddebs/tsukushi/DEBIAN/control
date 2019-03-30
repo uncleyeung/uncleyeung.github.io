@@ -1,0 +1,12 @@
+Package: com.uncleyeung.tsukushi
+Name: TsukushiFont IOS12(筑紫B丸ゴシック)
+Version: 1.0.1
+Depends: firmware (>= 12.0), mobilesubstrate
+Architecture: iphoneos-arm
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Conflicts: com.uncleyeung.tsukushi
+Section: Font
+Description: iOS12 筑紫B丸ゴシック 5字重中英文
+Homepage: http://uncleyeung.github.io/
+Maintainer: uncleyeung <java.yang.bo@outlook.com>

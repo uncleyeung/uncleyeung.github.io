@@ -1,0 +1,11 @@
+Package: com.uncleyeung.kuaidial
+Name: KuaiDial iPhone X
+Version: 1.6-7
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.gtihub.io/
+Section: System
+Description: kuaidail
+Homepage: http://x1aomi.gtihub.io/
+Maintainer: uncleyeung <java.yang.bo@outlook.com>

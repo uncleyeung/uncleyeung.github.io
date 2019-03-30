@@ -1,0 +1,10 @@
+#!/bin/sh
+declare -a cydia 
+cydia=($CYDIA)
+
+if [ -f /User/Documents/uncleyeung/pingfang85 ];then
+    echo "删除:/User/Documents/uncleyeung/pingfang85"
+    rm -rf /User/Documents/uncleyeung/pingfang85
+    echo "删除:完成"
+fi
+exit 0

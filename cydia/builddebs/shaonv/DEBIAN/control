@@ -1,0 +1,12 @@
+Package: com.uncleyeung.shaonv
+Name: ShaoNvFont 100% IOS12
+Version: 1.0.0
+Depends: firmware (>= 12.0), mobilesubstrate
+Architecture: iphoneos-arm
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Conflicts: com.uncleyeung.shaonv
+Section: Font
+Description: ShaoNvFont 100% IOS12(非主流华康少女体)
+Homepage: http://uncleyeung.github.io/
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
