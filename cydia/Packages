@@ -4,11 +4,11 @@ Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.mumiantech.classickeyboardx
-Filename: debs/com.mumiantech.classickeyboardx.deb
-Size: 4104
-MD5sum: 1299649e4c1cb6ccbd36e0b9e4796e27
-SHA1: 4dd6f7577e31ab734fb5db5fda5d347375263e92
-SHA256: 17ae4fbdf9cc0f970f033661b3bb63e86438f596f5997d3522bafc7d31f6a1a6
+Filename: debs/com.uncleyeung.classickeyboardx.deb
+Size: 4096
+MD5sum: 44be8a1517d671d56e4912bc1704d4f2
+SHA1: bc6b371858f2c0e6a1edcb095ef698b056e1dac0
+SHA256: 0bc889eb5876d1edb6a1c839608976ba40dae452e7067f2f0b1a01dc27db0358
 Section: application
 Homepage: http://uncleyeung.github.io/
 Description: iphonex去除键盘空白
@@ -37,10 +37,10 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: mobilesubstrate, preferenceloader, com.uncleyeung.limneosos
 Conflicts: net.limneos.callbarx, com.pulandr3s.audiorecorderxs, com.pulandr3s.callbarxs, com.pulandr3s.bioprotectxs, net.pulandr3s.nfcwriterx, com.pulandr3s.limneosos
 Filename: debs/com.uncleyeung.callbarsx.deb
-Size: 159400
-MD5sum: bae7e6841e105d9afdb5bf8194eedcdc
-SHA1: 07d9db723e82c5d6b738249afb5ca155fd3f0964
-SHA256: 06451647130f6b9699eff6c90218d48906c2e0907ee549227bd73c94a862a343
+Size: 159452
+MD5sum: d4d2e48eaea1dfb0191e1c0f0c930c6f
+SHA1: 9d3284443f7cff120accd745e0aa56fd4f4b065a
+SHA256: f5e810fd50725cb857706b05989d93f78b0e0c4dd23db84334e28d43c99bfff8
 Section: System
 Homepage: http://x1aomi.gtihub.io/
 Description: Change style of your calls
@@ -54,11 +54,11 @@ Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.uncleyeung.douyin
-Filename: debs/com.uncleyeung.douyin_1.0.0.deb
-Size: 8704
-MD5sum: b16ae0a696fe25900acac94b2e1a5674
-SHA1: d31b92da2e8104893a3026baf88f85aabfc5ccde
-SHA256: aaed45e1b7e44e8ef34704974a7338db33edb2bea3f4506061ebd9241b33b12e
+Filename: debs/com.uncleyeung.douyin.deb
+Size: 8700
+MD5sum: e8b4716d73c3ce45eb612d300f3dde13
+SHA1: 2720b9b54e39b237625995ecf7956328eb987efd
+SHA256: a3d6092aa0d8236b5206b10dd8f8016ae47f353712ef955597b5b10954f750a3
 Section: application
 Homepage: http://uncleyeung.github.io/
 Description: 抖音助手 下载去水印
@@ -72,10 +72,10 @@ Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
 Filename: debs/com.uncleyeung.kuaidial.deb
-Size: 364096
-MD5sum: 9a4a9f726854ba64a715f716a480c73f
-SHA1: 9aaaf6ac442c28f33d67a1c9d373522973021492
-SHA256: 08d0a9ecbbfe4202e43cbd482a8098c0023005d742ae4c6008c13e90fa09d307
+Size: 363712
+MD5sum: 497ea7d66b2ab118b75baad4869fbdfc
+SHA1: 7c5c06fc05d65c07526472e2f72e7dd64433818c
+SHA256: 05edbbc8b280b8fb28c3b67ba14aacdc41e3e647ae71038eb1a31f32214778e9
 Section: System
 Homepage: http://x1aomi.gtihub.io/
 Description: kuaidail
@@ -90,10 +90,10 @@ Maintainer: uncleyeung <66666@qq.com>
 Depends: mobilesubstrate
 Conflicts: ru.rejail.limneosos
 Filename: debs/com.uncleyeung.Limneos.deb
-Size: 23096
-MD5sum: fb6508bcc0db54c59c1f3ecd60547678
-SHA1: 73b22b041e9ba69762dd5974fa04f06ca9da320a
-SHA256: 62149bfd2f442d1a463cccc6abdd66a82dbbb0f7a814c535cd2569ca05e172f0
+Size: 23008
+MD5sum: 5bd101a1c07a16d02477bf2f66fb9e95
+SHA1: ce4badc90a78ccb4c0495f9f9221182613b75515
+SHA256: 6cd9fc3ddc78751f7592f29fea5b7069f47c05c2e868c7e9b3e6df9d2d16ae96
 Section: System
 Homepage: http://uncleyeung.github.io/
 Description: Cure for all Limneos Tweaks
@@ -108,10 +108,10 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.uncleyeung.native
 Filename: debs/com.uncleyeung.native_1.0.0.deb
-Size: 50602700
-MD5sum: bb7727d31dc6260d10671b19a19a34e2
-SHA1: eb9bdfa748ffeec256ea6d8390c31a12bbcd729e
-SHA256: f5164515e3905b7d285ccfd030b5c5fb697047c129aa46b9962ffa4face99c46
+Size: 50604116
+MD5sum: ae06deba9a540241a1fee0631162c6eb
+SHA1: 827b6d04498a557c70007bf057f1371cbbd25701
+SHA256: 9e254315e1ca7cb8f8e8ea640368fdc1c5beeedc7b41b3e146b8556df72b58e8
 Section: Font
 Homepage: http://uncleyeung.github.io/
 Description: 原生字体安装完可直接卸载,挽救手动替换的你
@@ -120,19 +120,19 @@ Depiction: http://uncleyeung.github.io/
 Name: NativeFont IOS12(原生字体)
 
 Package: com.uncleyeung.pingfang85
-Version: 1.0.3
+Version: 1.0.4
 Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.uncleyeung.pingfang85
-Filename: debs/com.uncleyeung.pingfang85.1_0_3.deb
-Size: 39704536
-MD5sum: 81111c32fe4498feeab61971bb090206
-SHA1: 6844c33b4d75029efc6e15b56e246e8d4fd24869
-SHA256: 060eeaffbbd3c6a0fe9270dcafa0c4f44873b3911a1f1d40fcfc7f0b067a2f90
+Filename: debs/com.uncleyeung.pingfang85.deb
+Size: 39705504
+MD5sum: 8b6f4ecd2d1c5d38fb4e13838be0edbd
+SHA1: 64b88e2e38804f57045844d0c13789e169a5542f
+SHA256: 346d97c3db5e45d3389b46c351eaa651ee2511003e483ceb8d2310242e7e8195
 Section: Font
 Homepage: http://uncleyeung.github.io/
-Description: PingFangFont 85% IOS12
+Description: PingFangFont 85% IOS12(Disable Software Update)
 Author: uncleyeung <java.yang.bo@outlook.com>
 Depiction: http://uncleyeung.github.io/
 Name: PingFangFont 85% IOS12
@@ -144,10 +144,10 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.uncleyeung.shaonv
 Filename: debs/com.uncleyeung.shaonv_1.0.0.deb
-Size: 13135216
-MD5sum: 6178ea7b1338db3dc56474a3327490cf
-SHA1: 7db763916cf1d82baee29000b7c9aa7b59ea7e7a
-SHA256: f1a8fb2e18c1f57600b0798a3764d299001acdd76ab66490ccd9d220169e7f20
+Size: 13135492
+MD5sum: c1f77aefe319e0a1a47b67f5e9d12834
+SHA1: 9bed3db9df136354fc445523b8f7b1e7d6ca10d5
+SHA256: 1e07f0e32f46d995dc20ff6bd65dae3ca797506f21c2ce7d97331645376a051f
 Section: Font
 Homepage: http://uncleyeung.github.io/
 Description: ShaoNvFont 100% IOS12(非主流华康少女体)
@@ -162,10 +162,10 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.uncleyeung.tengxiang9527
 Filename: debs/com.uncleyeung.tengxiang9527_1.0.0.deb
-Size: 11104932
-MD5sum: 1978d5111cf9ef141c3da4e33a818290
-SHA1: 887f00276381577c081a6286c93b9f07f80bbe4c
-SHA256: 2c50c76c7cf8b65e51dbf9422c986aaa7c87521a7905bd8208617088e647f125
+Size: 11106584
+MD5sum: 24ce9a32fdd5be7a029118e15f77bf40
+SHA1: f60ad8897ac3aef77984e13afd089ad13bc1cdf5
+SHA256: 1693c80e1fa896e7e24a8b05491dda79951e1388cae2eb860d816af91fc4b691
 Section: Font
 Homepage: http://uncleyeung.github.io/
 Description: TengXiangFont 95.27% IOS12
