@@ -42,8 +42,8 @@ mv /System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf_ /System/Library/Fonts/CoreU
 mv /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf
 mv /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf
 #Disable software updates
-mv /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist_ /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist
-mv /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist_ /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist
+#mv /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist_ /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist
+#mv /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist_ /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist
 echo "恢复备份完成"
 
 rm -fr /var/mobile/Library/Caches/com.apple.UIStatusBar
@@ -62,7 +62,7 @@ echo "感谢:对uncleyeung的支持"
 echo "首页:http://uncleyeung.gitbub.io"
 echo "源码:https://github.com/uncleyeung/uncleyeung.github.io"
 echo "备注:原生苹方字体缩小85%由心雨提供字体源文件"
-echo "请点击重启谢谢"
+echo "请点击注销谢谢"
 if [[ ${CYDIA+@} ]]; then
 	eval "echo 'finish:restart' >&${cydia[0]}"
 fi

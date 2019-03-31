@@ -43,8 +43,8 @@ mv /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf /System/Library/Fonts/
 mv /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf_
 
 #Disable software updates
-mv /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist_
-mv /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist_
+#mv /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist_
+#mv /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist_
 
 echo "cp LanguageSupport/cp Core/cp CoreAddition/cp CoreUI"
 #cp LanguageSupport
@@ -97,7 +97,7 @@ echo "感谢:对uncleyeung的支持"
 echo "首页:http://uncleyeung.gitbub.io"
 echo "源码:https://github.com/uncleyeung/uncleyeung.github.io"
 echo "备注:原生苹方字体缩小85%由心雨提供字体源文件"
-echo "备注:已经禁用手机系统升级,卸载恢复(Disable Software Update,Uninstall Recovery)"
+#echo "备注:已经禁用手机系统升级,卸载恢复(Disable Software Update,Uninstall Recovery)"
 echo "谢谢"
 echo "=================完成=================="
 if [[ ${CYDIA+@} ]]; then

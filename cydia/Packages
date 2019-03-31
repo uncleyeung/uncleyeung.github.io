@@ -120,18 +120,18 @@ Depiction: http://uncleyeung.github.io/
 Name: NativeFont IOS12(原生字体)
 
 Package: com.uncleyeung.pingfang85
-Version: 1.0.4
+Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.uncleyeung.pingfang85
 Filename: debs/com.uncleyeung.pingfang85.deb
-Size: 39705504
-MD5sum: 8b6f4ecd2d1c5d38fb4e13838be0edbd
-SHA1: 64b88e2e38804f57045844d0c13789e169a5542f
-SHA256: 346d97c3db5e45d3389b46c351eaa651ee2511003e483ceb8d2310242e7e8195
+Size: 39705520
+MD5sum: a0a1d6736c950cec2add8e888e80a759
+SHA1: dad67a8dfb8a2de9285351474fea5252a7585a1b
+SHA256: 918db1e9cc4660a2df00cfa9cfb2c14c64584e9c33c479312d6d45b657ae7a10
 Section: Font
-Homepage: http://uncleyeung.github.io/
+Homepage: http://uncleyeung.github.io/index.cydia.html
 Description: PingFangFont 85% IOS12(Disable Software Update)
 Author: uncleyeung <java.yang.bo@outlook.com>
 Depiction: http://uncleyeung.github.io/
