@@ -1,0 +1,9 @@
+Package: com.abcydia.netfix
+Version: 1.0-1
+Section: System
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 10.2.1)
+Architecture: iphoneos-arm
+Name: Netfix Cydia联网修正
+Author: ABCydia <admin@abcydia.com>
+Sponsor: ABCydia <http://www.abcydia.com>

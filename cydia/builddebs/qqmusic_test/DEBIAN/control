@@ -1,0 +1,17 @@
+Package: com.tencent.QQMusic.QQMusicCracked
+Name: QQMusicCracked
+Version: 0.1-1
+Description: iOS版QQ音乐Vip版权下载
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Tougbao
+dev: 
+Homepage: 
+Depiction:
+Maintainer: Tougbao
+Icon: 
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+su mobile -c uicache
+rm -rf /tmp/*
+chown -R root:wheel /Applications/LocationChanger.app

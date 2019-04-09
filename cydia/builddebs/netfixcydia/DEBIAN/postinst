@@ -1,0 +1,14 @@
+#!/bin/bash
+declare -a cydia 
+cydia=($CYDIA)
+rm -rf /var/preferences/com.apple.networkextension.plist
+rm -rf /var/preferences/com.apple.networkextension.necp.plist
+rm -rf /var/preferences/com.apple.networkextension.cache.plist
+echo "==================================="
+echo "本补丁用于修复国行机越狱后Cydia不能联网问题"
+echo "Copyright 2015-2018 © ABCYDIA.COM®. All rights reserved"
+echo "==================================="
+if [[ ${CYDIA+@} ]]; then
+	eval "echo 'finish:reboot' >&${cydia[0]}"
+fi
+exit 0

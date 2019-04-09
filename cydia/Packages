@@ -1,3 +1,24 @@
+Package: com.jakeashacks.realcc
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 76
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.jakeashacks.realcc_1.0.1.deb
+Size: 3712
+MD5sum: 089f4dedb54c52f1e6f1ef2d7e25100d
+SHA1: c6248b022c51d7d2ad208467b5ac155571c23a54
+SHA256: bb20242cbae40177002e9b74276001d136c17c00ed47b2a989da05077b393161
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
+Description: Actually disable Wi-Fi from the iOS 11 CC
+Tag: purpose::extension, compatible::ios11
+Author: Jake James <jakeashacks@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
+Dev: jakeashacks
+Name: RealCC
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.mumiantech.classickeyboardx
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -101,6 +122,24 @@ Author: ReJail <66666@qq.com>
 Depiction: http://uncleyeung.github.io/
 Name: Limneosos
 
+Package: com.uncleyeung.locationfaker
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: com.uncleyeung.locationfaker
+Filename: debs/com.uncleyeung.locationfaker.deb
+Size: 450532
+MD5sum: 60cb8eb7bffe5fbd7ceb76184e80c302
+SHA1: 8b1813d169ffcd90976a790e04d2a6d93e72835a
+SHA256: 760c317d8ef158a0147b74680997da8b78bc208208779c125c09980252aafedd
+Section: application
+Homepage: http://uncleyeung.github.io/
+Description: 虚拟定位
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Name: Location Faker
+
 Package: com.uncleyeung.native
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -136,6 +175,24 @@ Description: PingFangFont 85% IOS12(Disable Software Update)
 Author: uncleyeung <java.yang.bo@outlook.com>
 Depiction: http://uncleyeung.github.io/
 Name: PingFangFont 85% IOS12
+
+Package: com.uncleyeung.qqmusic.cracked
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.uncleyeung.qqmusic.cracked
+Filename: debs/com.uncleyeung.qqmusic.deb
+Size: 1184
+MD5sum: 152e2424ec3fa41e3624f728e3e7072c
+SHA1: 276ec8b72784c0393b440ac92047293f4a13416b
+SHA256: 62a0ad7b472b367c8391e166f9c9e6c8bf2f342cc3e3be5290f617aeb2ef06c4
+Section: application
+Homepage: http://uncleyeung.github.io/
+Description: 破解版权/试听下载无损/开启DTS
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Name: qq音乐破解(适配V8.9.9版本)
 
 Package: com.uncleyeung.shaonv
 Version: 1.0.0
