@@ -1,0 +1,12 @@
+Package: com.uncleyeung.qqmusic.cracked
+Name: qq音乐破解(适配V8.9.9版本)
+Version: 1.0.0
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.uncleyeung.qqmusic.cracked
+Architecture: iphoneos-arm
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: http://uncleyeung.github.io/
+Section: application
+Description: 破解版权/试听下载无损/开启DTS
+Homepage: http://uncleyeung.github.io/
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
