@@ -1,0 +1,13 @@
+Package: com.uncleyeung.cydown
+Name: cydown
+Version: 6.9.7
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Conflicts: com.uncleyeung.cydown
+Architecture: iphoneos-arm
+Author: julioverne <julioverne@me.com>
+Depiction: http://uncleyeung.github.io/
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Section: Utilities
+Description: cydown
+Homepage: http://uncleyeung.github.io/index.cydia.html
+Maintainer: uncleyeung <java.yang.bo@outlook.com>

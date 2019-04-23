@@ -1,0 +1,69 @@
+#!/bin/bash
+
+CPU_TYPE=$(uname -p)
+selected_cpu_ext=".arch_armv7"
+unselected_cpu_ext=".arch_arm64"
+
+if [ "$CPU_TYPE" == "arm64" ]; then
+	echo "* CPU arm64 detected..."
+	selected_cpu_ext=".arch_arm64"
+	unselected_cpu_ext=".arch_armv7"
+else
+	echo "* CPU armv7 detected..."
+fi
+
+function move_for_cpu_type {
+	mv -f $1${selected_cpu_ext} $1
+	rm -rf $1${unselected_cpu_ext}
+}
+function finish() {
+	f="${1}"
+	[[ -z "${f}" || -z "${CYDIA}" ]] && return
+	cydia=(${CYDIA})
+	[[ ${cydia[1]} -eq 1 ]] || return
+	echo "finish:${f}" >&${cydia[0]}
+}
+
+#rm -rf //var/mobile/Library/Preferences/com.julioverne.cydown.plist
+#rm -rf //var/mobile/Documents/CyDown/
+rm -rf //var/mobile/Library/Caches/com.saurik.Cydia/archives/partial/*
+
+echo "* Moving Files Based In CPU Type..."
+move_for_cpu_type //Library/MobileSubstrate/DynamicLibraries/CyDown.dylib
+move_for_cpu_type //Library/PreferenceBundles/CyDownSettings.bundle/CyDownSettings
+move_for_cpu_type //Library/Switches/CyDownSwitch.bundle/CyDownSwitch
+move_for_cpu_type //Applications/cydown.app/cydown
+move_for_cpu_type //usr/bin/cydown
+echo "* Moving Files Based In CPU Type... Done."
+
+echo "* Setting up Permission CyDown Files..."
+mkdir -p //var/mobile/Documents/CyDown/
+chown -R 501:501 //var/mobile/Documents/CyDown/
+chmod -R 755 //var/mobile/Documents/CyDown/
+chown 0:0 //Library/MobileSubstrate/DynamicLibraries/CyDown.*
+chmod 755 //Library/MobileSubstrate/DynamicLibraries/CyDown.*
+mkdir -p //Library/PreferenceBundles/CyDownSettings.bundle/
+chown -R 0:0 //Library/PreferenceBundles/CyDownSettings.bundle/
+chmod -R 755 //Library/PreferenceBundles/CyDownSettings.bundle/
+chown 0:0 //Library/PreferenceLoader/Preferences/CyDownSettings.plist
+chmod 755 //Library/PreferenceLoader/Preferences/CyDownSettings.plist
+chown -R 0:0 //Library/Switches/CyDownSwitch.bundle/
+chmod -R 755 //Library/Switches/CyDownSwitch.bundle/
+chown 0:0 //usr/bin/cydown
+chmod 6755 //usr/bin/cydown
+chown 0:0 //usr/lib/xxx*.dylib
+chmod 644 //usr/lib/xxx*.dylib
+chown 0:0 //etc/symlibs.dylib
+chmod 644 //etc/symlibs.dylib
+chown -R 0:0 //Applications/cydown.app/
+chmod -R 775 //Applications/cydown.app/
+chmod 644 //Applications/cydown.app/Info.plist
+echo "* Setting up Permission CyDown Files... Done."
+
+echo "* Running uicache..."
+su mobile -c uicache &>/dev/null
+echo "* Running uicache... Done."
+
+finish reopen
+
+exit 0;

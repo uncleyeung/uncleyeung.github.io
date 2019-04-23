@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf //var/mobile/Library/Caches/com.saurik.Cydia/archives/partial/*
+rm -rf //etc/apt/apt.conf.d/cydownConf
+
+exit 0;
