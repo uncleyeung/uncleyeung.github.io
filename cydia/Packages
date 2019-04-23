@@ -69,6 +69,25 @@ Author: uncleyeung <java.yang.bo@outlook.com>
 Depiction: http://uncleyeung.gtihub.io/
 Name: CallBar XS
 
+Package: com.uncleyeung.cydown
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Conflicts: com.uncleyeung.cydown
+Filename: debs/com.uncleyeung.cydown.deb
+Size: 1083820
+MD5sum: 4ee847601cead984d32502ef7f824c45
+SHA1: 004f9808adf5b4c4b3fea629ba6b6c4371caad91
+SHA256: 0115e6b8d389544c381219c88ef2bace657bc37d4551d811c9063e471aca6c5f
+Section: Utilities
+Homepage: http://uncleyeung.github.io/index.cydia.html
+Description: cydown
+Author: julioverne <julioverne@me.com>
+Depiction: http://uncleyeung.github.io/
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: cydown
+
 Package: com.uncleyeung.douyin
 Version: 1.0.0
 Architecture: iphoneos-arm
