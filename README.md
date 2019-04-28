@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/baomidou/mybatis-plus">
-   <img alt="Mybatis-Plus-Logo" src="./web/img/logo.png">
+   <img alt="Mybatis-Plus-Logo" src="./web/img/logo1.png">
   </a>
 </p>
 
@@ -9,9 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.baomidou%22%20AND%20a%3A%22mybatis-plus%22">
-    <img alt="maven" src="https://img.shields.io/maven-central/v/com.baomidou/mybatis-plus.svg?style=flat-square">
-  </a>
 
   <a href="https://github.com/996icu/996.ICU/blob/master/LICENSE">
     <img alt="996icu" src="https://img.shields.io/badge/license-NPL%20(The%20996%20Prohibited%20License)-blue.svg">
