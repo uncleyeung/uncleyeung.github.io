@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/baomidou/mybatis-plus">
-   <img alt="Mybatis-Plus-Logo" src="https://raw.githubusercontent.com/baomidou/logo/master/mybatis-plus-logo-new-mini.png">
+   <img alt="Mybatis-Plus-Logo" src="./web/img/logo.png">
   </a>
 </p>
 
