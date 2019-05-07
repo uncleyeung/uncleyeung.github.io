@@ -33,6 +33,6 @@ function siteTime(){
     var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
     var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
     var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
-    document.getElementById("sitetime").innerHTML="Website is running"+diffYears+" year "+diffDays+" day "+diffHours+" hour "+diffMinutes+" min "+diffSeconds+" s"
+    document.getElementById("sitetime").innerHTML="Website is running "+diffYears+" year "+diffDays+" day "+diffHours+" hour "+diffMinutes+" min "+diffSeconds+" s"
 }
 siteTime()
