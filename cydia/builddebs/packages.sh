@@ -15,7 +15,7 @@ else
 fi
 
 
-if [ -f ../debs/com.uncleyeung.pingfang85.1_0_3.deb ];then
+if [ -f ../debs/com.uncleyeung.pingfang85.deb ];then
     echo "删除:com.uncleyeung.pingfang85.deb"
     #rm -rf com.uncleyeung.pingfang85.deb
     echo "删除:com.uncleyeung.pingfang85.deb完成"
@@ -45,42 +45,42 @@ else
 fi
 
 
-if [ -f ../debs/com.uncleyeung.shaonv_1.0.0.deb ];then
-    echo "删除:com.uncleyeung.shaonv_1.0.0.deb"
-    #rm -rf com.uncleyeung.shaonv_1.0.0.deb
-    echo "删除:com.uncleyeung.shaonv_1.0.0.deb完成"
+if [ -f ../debs/com.uncleyeung.shaonv.deb ];then
+    echo "删除:com.uncleyeung.shaonv.deb"
+    #rm -rf com.uncleyeung.shaonv.deb
+    echo "删除:com.uncleyeung.shaonv.deb完成"
 else
-    dpkg-deb -b shaonv/ com.uncleyeung.shaonv_1.0.0.deb
+    dpkg-deb -b shaonv/ com.uncleyeung.shaonv.deb
     echo "生成:com.uncleyeung.shaonv_1.0.0.deb完成"
 fi
 
 
-if [ -f ../debs/com.uncleyeung.tengxiang9527_1.0.0.deb ];then
-    echo "删除:com.uncleyeung.tengxiang9527_1.0.0.deb"
+if [ -f ../debs/com.uncleyeung.tengxiang9527.deb ];then
+    echo "删除:com.uncleyeung.tengxiang9527.deb"
     #rm -rf com.uncleyeung.tengxiang9527_1.0.0.deb
-    echo "删除:com.uncleyeung.tengxiang9527_1.0.0.deb完成"
+    echo "删除:com.uncleyeung.tengxiang9527.deb完成"
 else
-    dpkg-deb -b tengxiang/ com.uncleyeung.tengxiang9527_1.0.0.deb
-    echo "生成:com.uncleyeung.tengxiang9527_1.0.0.deb完成"
+    dpkg-deb -b tengxiang/ com.uncleyeung.tengxiang9527.deb
+    echo "生成:com.uncleyeung.tengxiang9527.deb完成"
 fi
 
 
-if [ -f ../debs/com.uncleyeung.native_1.0.0.deb ];then
-    echo "删除:com.uncleyeung.native_1.0.0.deb"
-    #rm -rf com.uncleyeung.native_1.0.0.deb
-    echo "删除:com.uncleyeung.native_1.0.0.deb完成"
+if [ -f ../debs/com.uncleyeung.native.deb ];then
+    echo "删除:com.uncleyeung.native.deb"
+    #rm -rf com.uncleyeung.native.deb
+    echo "删除:com.uncleyeung.native.deb完成"
 else
-    dpkg-deb -b native/ com.uncleyeung.native_1.0.0.deb
-    echo "生成:com.uncleyeung.native_1.0.0.deb完成"
+    dpkg-deb -b native/ com.uncleyeung.native.deb
+    echo "生成:com.uncleyeung.native.deb完成"
 fi
 
-if [ -f ../debs/com.uncleyeung.tsukushi_1.0.1.deb ];then
-    echo "删除:com.uncleyeung.tsukushi_1.0.1.deb"
-    #rm -rf com.uncleyeung.tsukushi_1.0.1.deb
-    echo "删除:com.uncleyeung.tsukushi_1.0.1.deb完成"
+if [ -f ../debs/com.uncleyeung.tsukushi.deb ];then
+    echo "删除:com.uncleyeung.tsukushi.deb"
+    #rm -rf com.uncleyeung.tsukushi.deb
+    echo "删除:com.uncleyeung.tsukushi.deb完成"
 else
-    dpkg-deb -b tsukushi/ com.uncleyeung.tsukushi_1.0.1.deb
-    echo "生成:com.uncleyeung.tsukushi_1.0.1.deb完成"
+    dpkg-deb -b tsukushi/ com.uncleyeung.tsukushi.deb
+    echo "生成:com.uncleyeung.tsukushi.deb完成"
 fi
 
 

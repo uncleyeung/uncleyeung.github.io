@@ -1,12 +1,14 @@
 Package: com.uncleyeung.pingfang85
 Name: PingFangFont 85% IOS12
-Version: 1.0.5
+Version: 1.0.6
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.uncleyeung.pingfang85
 Architecture: iphoneos-arm
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
-Section: Font
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Section: System
 Description: PingFangFont 85% IOS12(Disable Software Update)
-Homepage: http://uncleyeung.github.io/index.cydia.html
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/fonts.png
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/fontnative.json
