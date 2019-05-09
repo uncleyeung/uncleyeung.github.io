@@ -219,16 +219,18 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.uncleyeung.qqmusic.cracked
 Filename: debs/com.uncleyeung.qqmusic.deb
-Size: 1184
-MD5sum: 152e2424ec3fa41e3624f728e3e7072c
-SHA1: 276ec8b72784c0393b440ac92047293f4a13416b
-SHA256: 62a0ad7b472b367c8391e166f9c9e6c8bf2f342cc3e3be5290f617aeb2ef06c4
-Section: application
-Homepage: http://uncleyeung.github.io/
+Size: 1272
+MD5sum: 703b40c1763b57269d783c751dac81d1
+SHA1: f7e22c2e8730bb41f693d3a735e1585b8367df24
+SHA256: b3b790d3b8cb26a30eeb01e0d5475d83d9d6dcbd7abcb42f07462db52fbe83c4
+Section: Plugin
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: 破解版权/试听下载无损/开启DTS
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
 Name: qq音乐破解(适配V8.9.9版本)
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
 Package: com.uncleyeung.shaonv
 Version: 1.0.1
