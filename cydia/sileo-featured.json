@@ -4,85 +4,85 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "RealCC",
         "package": "com.jakeashacks.realcc",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "Classic Keyboard X",
         "package": "com.mumiantech.classickeyboardx",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "Alipay AntForest",
         "package": "com.shawushe.main.Alipay-AntForest",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "Call Bar X",
         "package": "com.uncleyeung.callbarxs",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "Cydown",
         "package": "com.uncleyeung.cydown",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "TikTok",
         "package": "com.uncleyeung.douyin",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "Kuaidial",
         "package": "com.uncleyeung.kuaidial",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "Limneosos",
         "package": "com.uncleyeung.limneosos",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "Location Faker",
         "package": "com.uncleyeung.locationfaker",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_font.png",
         "title": "Native(恢复原生字体)",
         "package": "com.uncleyeung.native",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_font.png",
         "title": "Pingfang85(苹方字体缩小85%)",
         "package": "com.uncleyeung.pingfang85",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_plugin.jpg",
         "title": "QQ Music Cracked",
         "package": "com.uncleyeung.qqmusic.cracked",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_font.png",
         "title": "ShaoNv(华康少女字体)",
         "package": "com.uncleyeung.shaonv",
         "hideShadow": false
     },
     {
-        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/header.png",
+        "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_font.png",
         "title": "TengXiang9527(腾翔字体缩小95.27%)",
         "package": "com.uncleyeung.tengxiang9527",
         "hideShadow": false
