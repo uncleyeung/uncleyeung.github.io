@@ -25,17 +25,19 @@ Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.mumiantech.classickeyboardx
-Filename: debs/com.uncleyeung.classickeyboardx.deb
-Size: 4096
-MD5sum: 44be8a1517d671d56e4912bc1704d4f2
-SHA1: bc6b371858f2c0e6a1edcb095ef698b056e1dac0
-SHA256: 0bc889eb5876d1edb6a1c839608976ba40dae452e7067f2f0b1a01dc27db0358
-Section: application
-Homepage: http://uncleyeung.github.io/
+Filename: debs/com.mumiantech.classickeyboardx.deb
+Size: 4188
+MD5sum: 1d7f387979b879fd681693cf5a5e1fa5
+SHA1: beb69d2de4de9f8a596ed76df71a77ceccf9daef
+SHA256: b9077f59a33e24bfea32f8674169a0e058cecce8fc595e4ed03fbf0f28f79884
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: iphonex去除键盘空白
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
 Name: classickeyboardx
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
 Package: com.shawushe.main.Alipay-AntForest
 Version: 0.1-1
@@ -58,16 +60,18 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: mobilesubstrate, preferenceloader, com.uncleyeung.limneosos
 Conflicts: net.limneos.callbarx, com.pulandr3s.audiorecorderxs, com.pulandr3s.callbarxs, com.pulandr3s.bioprotectxs, net.pulandr3s.nfcwriterx, com.pulandr3s.limneosos
 Filename: debs/com.uncleyeung.callbarsx.deb
-Size: 159452
-MD5sum: d4d2e48eaea1dfb0191e1c0f0c930c6f
-SHA1: 9d3284443f7cff120accd745e0aa56fd4f4b065a
-SHA256: f5e810fd50725cb857706b05989d93f78b0e0c4dd23db84334e28d43c99bfff8
+Size: 159540
+MD5sum: f21163a7d838b5ecee7b61ae195ac254
+SHA1: 11c2a6006260b3801ec7cdf530c210ee5341a086
+SHA256: 742e0ef3b8ffdc54ad43329f9d481f18bab5a762799b249ccc75e611786a152a
 Section: System
-Homepage: http://x1aomi.gtihub.io/
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: Change style of your calls
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.gtihub.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
 Name: CallBar XS
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
 Package: com.uncleyeung.cydown
 Version: 6.9.7
@@ -76,17 +80,18 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
 Conflicts: com.uncleyeung.cydown
 Filename: debs/com.uncleyeung.cydown.deb
-Size: 1083820
-MD5sum: 4ee847601cead984d32502ef7f824c45
-SHA1: 004f9808adf5b4c4b3fea629ba6b6c4371caad91
-SHA256: 0115e6b8d389544c381219c88ef2bace657bc37d4551d811c9063e471aca6c5f
-Section: Utilities
-Homepage: http://uncleyeung.github.io/index.cydia.html
+Size: 1083872
+MD5sum: 88cd0cdcbd6f66879bbce652c3a76f86
+SHA1: 07dfe2ea3d85b03459a29181a163e4189be9da2b
+SHA256: 74e65b6790c98b15c218f53ac89d01786bf0ceddcf8888901993c90a3005aa83
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: cydown
-Author: julioverne <julioverne@me.com>
-Depiction: http://uncleyeung.github.io/
-Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
 Name: cydown
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
 Package: com.uncleyeung.douyin
 Version: 1.0.0
@@ -95,51 +100,57 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.uncleyeung.douyin
 Filename: debs/com.uncleyeung.douyin.deb
-Size: 8700
-MD5sum: e8b4716d73c3ce45eb612d300f3dde13
-SHA1: 2720b9b54e39b237625995ecf7956328eb987efd
-SHA256: a3d6092aa0d8236b5206b10dd8f8016ae47f353712ef955597b5b10954f750a3
-Section: application
-Homepage: http://uncleyeung.github.io/
+Size: 8796
+MD5sum: 87599d4e3973706d0d724decb28543aa
+SHA1: 3ca5f251a512cc212f7bb5d45aaa5e585d9220c0
+SHA256: ee30d1befd4006f9e73498f0163c7aee9a98d1427bc3a9370ee2d238aced2279
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: 抖音助手 下载去水印
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
 Name: 抖音助手
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
 Package: com.uncleyeung.kuaidial
-Version: 1.6-7
+Version: 1.6-8
 Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
 Filename: debs/com.uncleyeung.kuaidial.deb
-Size: 363712
-MD5sum: 497ea7d66b2ab118b75baad4869fbdfc
-SHA1: 7c5c06fc05d65c07526472e2f72e7dd64433818c
-SHA256: 05edbbc8b280b8fb28c3b67ba14aacdc41e3e647ae71038eb1a31f32214778e9
+Size: 363800
+MD5sum: 293837687acc435f1eb2d787931f772e
+SHA1: f03cc23e612cf7829d4fc5c92fb88d171cf8d130
+SHA256: 8a903e9f4a4d9a0c12615fb9278087de74fbbea503cd33db2ee6ebf732c6caec
 Section: System
-Homepage: http://x1aomi.gtihub.io/
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: kuaidail
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.gtihub.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
 Name: KuaiDial iPhone X
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
 Package: com.uncleyeung.limneosos
 Version: 1.1.2
 Architecture: iphoneos-arm
-Maintainer: uncleyeung <66666@qq.com>
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: mobilesubstrate
 Conflicts: ru.rejail.limneosos
-Filename: debs/com.uncleyeung.Limneos.deb
-Size: 23008
-MD5sum: 5bd101a1c07a16d02477bf2f66fb9e95
-SHA1: ce4badc90a78ccb4c0495f9f9221182613b75515
-SHA256: 6cd9fc3ddc78751f7592f29fea5b7069f47c05c2e868c7e9b3e6df9d2d16ae96
+Filename: debs/com.uncleyeung.limneos.deb
+Size: 23112
+MD5sum: 03b1c73f8fd51ccaf0ac3d7a14bb6300
+SHA1: 5c1c204a9b0373de61fc6818612a3e81c211b4a0
+SHA256: 26afb2353f5ad4f31a99d1516f8e17e5d56784b3f91898a36f29b8a98e661797
 Section: System
-Homepage: http://uncleyeung.github.io/
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: Cure for all Limneos Tweaks
-Author: ReJail <66666@qq.com>
-Depiction: http://uncleyeung.github.io/
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
 Name: Limneosos
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
 Package: com.uncleyeung.locationfaker
 Version: 1.0.0
@@ -148,34 +159,38 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 7.0), mobilesubstrate
 Conflicts: com.uncleyeung.locationfaker
 Filename: debs/com.uncleyeung.locationfaker.deb
-Size: 450532
-MD5sum: 60cb8eb7bffe5fbd7ceb76184e80c302
-SHA1: 8b1813d169ffcd90976a790e04d2a6d93e72835a
-SHA256: 760c317d8ef158a0147b74680997da8b78bc208208779c125c09980252aafedd
-Section: application
-Homepage: http://uncleyeung.github.io/
+Size: 450628
+MD5sum: f692409a276ee5075d0c4819ce7f67c5
+SHA1: 086bfe76e878ec619dac674c79ebeb5499ba034d
+SHA256: 0fc2dc87c863cd434bd0ae353f9d8227b301ddf59fe69db79fa68288d3cdfbc9
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: 虚拟定位
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
 Name: Location Faker
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
 Package: com.uncleyeung.native
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.uncleyeung.native
-Filename: debs/com.uncleyeung.native_1.0.0.deb
-Size: 50604116
-MD5sum: ae06deba9a540241a1fee0631162c6eb
-SHA1: 827b6d04498a557c70007bf057f1371cbbd25701
-SHA256: 9e254315e1ca7cb8f8e8ea640368fdc1c5beeedc7b41b3e146b8556df72b58e8
-Section: Font
-Homepage: http://uncleyeung.github.io/
+Filename: debs/com.uncleyeung.native.deb
+Size: 50604208
+MD5sum: 27721c961092a291544c5079de2e5c99
+SHA1: 24bdafaacfa0a78b65bae281538b0d28f50f95e9
+SHA256: a47ec6f37854b5b5d7285b133879f1c3d2abcc7134995f43532c495379d6dd95
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: 原生字体安装完可直接卸载,挽救手动替换的你
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/fonts.png
 Name: NativeFont IOS12(原生字体)
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/fontnative.json
 
 Package: com.uncleyeung.pingfang85
 Version: 1.0.6
@@ -216,40 +231,44 @@ Depiction: http://uncleyeung.github.io/
 Name: qq音乐破解(适配V8.9.9版本)
 
 Package: com.uncleyeung.shaonv
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.uncleyeung.shaonv
-Filename: debs/com.uncleyeung.shaonv_1.0.0.deb
-Size: 13135492
-MD5sum: c1f77aefe319e0a1a47b67f5e9d12834
-SHA1: 9bed3db9df136354fc445523b8f7b1e7d6ca10d5
-SHA256: 1e07f0e32f46d995dc20ff6bd65dae3ca797506f21c2ce7d97331645376a051f
-Section: Font
-Homepage: http://uncleyeung.github.io/
+Filename: debs/com.uncleyeung.shaonv.deb
+Size: 13135584
+MD5sum: 2b7ae081e0886193409c5643ad44825c
+SHA1: 5f503473ee788d302bd06d2f5f0e66153a02ff8d
+SHA256: b3c165815f53f7fa9161f32a0829ac24bf43c5e570702cd92da4402762381695
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: ShaoNvFont 100% IOS12(非主流华康少女体)
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/fonts.png
 Name: ShaoNvFont 100% IOS12
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/fontnative.json
 
 Package: com.uncleyeung.tengxiang9527
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.uncleyeung.tengxiang9527
-Filename: debs/com.uncleyeung.tengxiang9527_1.0.0.deb
-Size: 11106584
-MD5sum: 24ce9a32fdd5be7a029118e15f77bf40
-SHA1: f60ad8897ac3aef77984e13afd089ad13bc1cdf5
-SHA256: 1693c80e1fa896e7e24a8b05491dda79951e1388cae2eb860d816af91fc4b691
-Section: Font
-Homepage: http://uncleyeung.github.io/
+Filename: debs/com.uncleyeung.tengxiang9527.deb
+Size: 11106664
+MD5sum: aff781bacee088c735b117fe1f9e36b4
+SHA1: dc69cf66627aeb3be6a65d3890c125af58054f43
+SHA256: a43e3e883e016e400704fa2d39e8102e838abe3eb6518c8a5fdfacda4e93a1ab
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: TengXiangFont 95.27% IOS12
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/fonts.png
 Name: TengXiangFont 95.27% IOS12
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/fontnative.json
 
 Package: org.xbmc.kodi-ios
 Version: 18.1-0
