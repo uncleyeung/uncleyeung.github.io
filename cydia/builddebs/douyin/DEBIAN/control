@@ -3,10 +3,13 @@ Name: 抖音助手
 Version: 1.0.0
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.uncleyeung.douyin
+Description: 抖音助手 下载去水印
 Architecture: iphoneos-arm
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
-Section: application
-Description: 抖音助手 下载去水印
-Homepage: http://uncleyeung.github.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
+

@@ -3,10 +3,12 @@ Name: CallBar XS
 Version: 2.1-22
 Depends: mobilesubstrate, preferenceloader, com.uncleyeung.limneosos
 Conflicts: net.limneos.callbarx, com.pulandr3s.audiorecorderxs, com.pulandr3s.callbarxs, com.pulandr3s.bioprotectxs, net.pulandr3s.nfcwriterx, com.pulandr3s.limneosos
+Description: Change style of your calls
 Architecture: iphoneos-arm
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.gtihub.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
 Section: System
-Description: Change style of your calls
-Homepage: http://x1aomi.gtihub.io/
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json

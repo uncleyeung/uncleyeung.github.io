@@ -3,10 +3,13 @@ Name: Limneosos
 Version: 1.1.2
 Depends: mobilesubstrate
 Conflicts: ru.rejail.limneosos
-Architecture: iphoneos-arm
-Author: ReJail <66666@qq.com>
-Depiction: http://uncleyeung.github.io/
-Section: System
 Description: Cure for all Limneos Tweaks
-Homepage: http://uncleyeung.github.io/
-Maintainer: uncleyeung <66666@qq.com>
+Architecture: iphoneos-arm
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
+

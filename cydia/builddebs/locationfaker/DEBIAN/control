@@ -2,11 +2,14 @@ Package: com.uncleyeung.locationfaker
 Name: Location Faker
 Version: 1.0.0
 Depends: firmware (>= 7.0), mobilesubstrate
+Description: 虚拟定位
+Conflicts: com.uncleyeung.locationfaker
 Architecture: iphoneos-arm
 Author: uncleyeung <java.yang.bo@outlook.com>
-Depiction: http://uncleyeung.github.io/
-Conflicts: com.uncleyeung.locationfaker
-Section: application
-Description: 虚拟定位
-Homepage: http://uncleyeung.github.io/
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
+
