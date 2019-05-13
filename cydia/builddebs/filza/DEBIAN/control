@@ -1,0 +1,16 @@
+Package: com.uncleyeung.filzajailed
+Name: Filza File Manager
+Version: 3.6.2
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.abcydi.filza, com.uncleyeung.filzajailed
+Description: 功能强大的文件管理软件
+Architecture: iphoneos-arm
+Author: TIGI Software
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Section: Utilities
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
+
+
