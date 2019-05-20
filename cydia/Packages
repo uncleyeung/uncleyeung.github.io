@@ -120,10 +120,10 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza64bit, com.abcydi.filza, com.uncleyeung.filzajailed
 Filename: debs/com.uncleyeung.filza.deb
-Size: 15497344
-MD5sum: 544f7b0e59a7ee6f7e533aa11497fddc
-SHA1: bb24e71f22a43c23102fef16cce1b9df6667d50f
-SHA256: a82470f29ce7a7347c109fc780e971edaa892d43634b81e82e92a60f4fddbb5c
+Size: 15497452
+MD5sum: 629a79046538878a52be52a05640f36c
+SHA1: 7f12a478928bd2ea8ef4c6e7fb23cce241c522b6
+SHA256: 832e537f23f1942206198cdadf883df481944846549cebd849b7f691a0030215
 Section: Utilities
 Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: 功能强大的文件管理软件
