@@ -113,6 +113,26 @@ Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/c
 Name: 抖音助手
 Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
+Package: com.uncleyeung.filzajailed
+Version: 3.6.2
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.abcydi.filza, com.uncleyeung.filzajailed
+Filename: debs/com.uncleyeung.filza.deb
+Size: 15497344
+MD5sum: 544f7b0e59a7ee6f7e533aa11497fddc
+SHA1: bb24e71f22a43c23102fef16cce1b9df6667d50f
+SHA256: a82470f29ce7a7347c109fc780e971edaa892d43634b81e82e92a60f4fddbb5c
+Section: Utilities
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
+Description: 功能强大的文件管理软件
+Author: TIGI Software
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
+Name: Filza File Manager
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
+
 Package: com.uncleyeung.kuaidial
 Version: 1.6-8
 Architecture: iphoneos-arm
