@@ -1,0 +1,17 @@
+Package: com.uncleyeung.main.alipay-ant-forest
+Name: alipay-ant-forest
+Version: 0.4.1
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
+Description: 蚂蚁森林助手
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
+

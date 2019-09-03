@@ -192,6 +192,26 @@ Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/c
 Name: Location Faker
 Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
 
+Package: com.uncleyeung.main.alipay-ant-forest
+Version: 0.4.1
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.uncleyeung.alipay-ant-forest.deb
+Size: 5053456
+MD5sum: 9fa04f7bbe7a6b62b5359eab781bb32e
+SHA1: a3dd2175632f9bf498b4e585efedb25763a2220e
+SHA256: 591ed68c6d74c9dfa4bdf3ae20fdadc974f10f0f99de94c65081f76d25ad4738
+Section: System
+Priority: optional
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
+Description: 蚂蚁森林助手
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
+Name: alipay-ant-forest
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
+
 Package: com.uncleyeung.native
 Version: 1.0.1
 Architecture: iphoneos-arm
