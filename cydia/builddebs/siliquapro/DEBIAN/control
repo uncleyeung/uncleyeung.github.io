@@ -1,7 +1,7 @@
 Package: com.uncleyeung.siliquapro
 Name: Siliqua Pro
 Version: 1.6-8
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
 Description: 支持AirPods Pro，不用升级IOS13.2以上
 Architecture: iphoneos-arm
 Author: uncleyeung <java.yang.bo@outlook.com>
