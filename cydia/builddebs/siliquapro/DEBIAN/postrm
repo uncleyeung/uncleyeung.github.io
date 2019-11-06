@@ -1,0 +1,8 @@
+#!/bin/bash
+# relaunch assertiond so we get injected into it, but not when we’re
+# upgrading or it’ll get stopped again by postinst
+if [[ $1 != upgrade ]]; then
+	killall -KILL BTAvrcp || true
+else
+	:
+fi

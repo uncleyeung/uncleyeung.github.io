@@ -292,6 +292,25 @@ Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/c
 Name: ShaoNvFont 100% IOS12
 Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/fontnative.json
 
+Package: com.uncleyeung.siliquapro
+Version: 1.6-8
+Architecture: iphoneos-arm
+Maintainer: uncleyeung <java.yang.bo@outlook.com>
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/com.uncleyeung.siliquapro.deb
+Size: 77118
+MD5sum: e5f7dd582df0ce069de44f1846b497e7
+SHA1: af2d8895ad6d007d200927c460e823fbbd01e08c
+SHA256: 13255dbc03fbc57f9f27bef8e8070a2c2d7acb0d9c6d0eee3a98046b6a452d40
+Section: System
+Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
+Description: 支持AirPods Pro，不用升级IOS13.2以上
+Author: uncleyeung <java.yang.bo@outlook.com>
+Depiction: https://uncleyeung.github.io/web/html/index_cydia.html
+Icon: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/depictions/sectionIcons/plugin.png
+Name: Siliqua Pro
+Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/plugin.json
+
 Package: com.uncleyeung.tengxiang9527
 Version: 1.0.1
 Architecture: iphoneos-arm

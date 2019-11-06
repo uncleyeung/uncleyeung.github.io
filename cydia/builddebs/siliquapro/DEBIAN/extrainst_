@@ -1,0 +1,3 @@
+#!/bin/bash
+killall -KILL BTAvrcp || true
+#launchctl stop com.apple.BTAvrcp
