@@ -21,7 +21,7 @@
 
 # uncleyeung's Repo For Cydia
 > * Source: https://github.com/uncleyeung/uncleyeung.github.io/
-> * Twitter: https://twitter.com/_uncleyeung
+> * Twitter: https://twitter.com/uncle_yeung
 > * Tumblr: https://www.tumblr.com/blog/uncleyeung
 
 ### 前情提要 test

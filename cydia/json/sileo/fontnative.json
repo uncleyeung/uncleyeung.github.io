@@ -62,7 +62,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "uncleYeung (_uncleyeung)",
+          "text": "uncleYeung (uncle_yeung)",
           "title": "Author"
         },
         {
@@ -92,9 +92,9 @@
           "spacing": 16
         },
         {
-          "action": "https://twitter.com/_uncleyeung",
+          "action": "https://twitter.com/uncle_yeung",
           "class": "DepictionTableButtonView",
-          "title": "Find me on Twitter (@_uncleyeung)",
+          "title": "Find me on Twitter (@uncle_yeung)",
           "openExternal": true
         },
         {
