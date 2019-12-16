@@ -1,0 +1,76 @@
+#!/bin/sh
+declare -a cydia 
+cydia=($CYDIA) 
+echo "开始卸载字体"
+
+#mv LanguageSupport
+mv /System/Library/Fonts/LanguageSupport/PingFang.ttc_ /System/Library/Fonts/LanguageSupport/PingFang.ttc
+#mv Core
+#--ios13 add AppleSymbols
+mv /System/Library/Fonts/Core/AppleSymbols.ttf_ /System/Library/Fonts/Core/AppleSymbols.ttf
+mv /System/Library/Fonts/Core/Avenir.ttc_ /System/Library/Fonts/Core/Avenir.ttc
+mv /System/Library/Fonts/Core/HelveticaNeueExtras.ttc_ /System/Library/Fonts/Core/HelveticaNeueExtras.ttc
+#mv /System/Library/Fonts/Core/Fallback.ttf_ /System/Library/Fonts/Core/Fallback.ttf --ios13 remove
+mv /System/Library/Fonts/Core/HelveticaNeueInterface.ttc_ /System/Library/Fonts/Core/HelveticaNeueInterface.ttc
+mv /System/Library/Fonts/Core/Helvetica.ttc_ /System/Library/Fonts/Core/Helvetica.ttc
+mv /System/Library/Fonts/Core/HelveticaNeueLights.ttc_ /System/Library/Fonts/Core/HelveticaNeueLights.ttc
+mv /System/Library/Fonts/Core/HelveticaNeue.ttc_ /System/Library/Fonts/Core/HelveticaNeue.ttc
+mv /System/Library/Fonts/Core/PhonepadTwo.ttf_ /System/Library/Fonts/Core/PhonepadTwo.ttf
+#mv CoreAddition
+mv /System/Library/Fonts/CoreAddition/Arial.ttf_ /System/Library/Fonts/CoreAddition/Arial.ttf
+mv /System/Library/Fonts/CoreAddition/ArialBold.ttf_ /System/Library/Fonts/CoreAddition/ArialBold.ttf
+mv /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf_ /System/Library/Fonts/CoreAddition/ArialBoldItalic.ttf
+mv /System/Library/Fonts/CoreAddition/ArialItalic.ttf_ /System/Library/Fonts/CoreAddition/ArialItalic.ttf
+mv /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf_ /System/Library/Fonts/CoreAddition/ArialRoundedMTBold.ttf
+mv /System/Library/Fonts/CoreAddition/Keycaps.ttc_ /System/Library/Fonts/CoreAddition/Keycaps.ttc
+mv /System/Library/Fonts/CoreAddition/KeycapsPad.ttc_ /System/Library/Fonts/CoreAddition/KeycapsPad.ttc
+mv /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf_ /System/Library/Fonts/CoreAddition/PhoneKeyCaps.ttf
+#mv /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf_ /System/Library/Fonts/CoreAddition/PhoneKeyCapsThree.ttf --ios13 remove
+#mv /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf_ /System/Library/Fonts/CoreAddition/PhoneKeyCapsTwo.ttf --ios13 remove
+#mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG1.otf_ /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG1.otf --ios13 remove
+#mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG2.otf_ /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG2.otf --ios13 remove
+#mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG3.otf_ /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG3.otf --ios13 remove
+#mv /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG4.otf_ /System/Library/Fonts/CoreAddition/SFUIDisplay-ThinG4.otf --ios13 remove
+mv /System/Library/Fonts/CoreAddition/Verdana.ttf_ /System/Library/Fonts/CoreAddition/Verdana.ttf
+mv /System/Library/Fonts/CoreAddition/VerdanaBold.ttf_ /System/Library/Fonts/CoreAddition/VerdanaBold.ttf
+mv /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf_ /System/Library/Fonts/CoreAddition/VerdanaBoldItalic.ttf
+mv /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf_ /System/Library/Fonts/CoreAddition/VerdanaItalic.ttf
+#mv CoreUI
+#mv /System/Library/Fonts/CoreUI/SFUIDisplay.ttf_ /System/Library/Fonts/CoreUI/SFUIDisplay.ttf --ios13 remove
+#mv /System/Library/Fonts/CoreUI/SFUIText.ttf_ /System/Library/Fonts/CoreUI/SFUIText.ttf --ios13 remove
+#mv /System/Library/Fonts/CoreUI/SFUITextItalic.ttf_ /System/Library/Fonts/CoreUI/SFUITextItalic.ttf --ios13 remove
+#--ios13 add SFUI/SFUIItalic
+mv /System/Library/Fonts/CoreUI/SFUI.ttf_ /System/Library/Fonts/CoreUI/SFUI.ttf
+mv /System/Library/Fonts/CoreUI/SFUIItalic.ttf_ /System/Library/Fonts/CoreUI/SFUIItalic.ttf
+mv /System/Library/Fonts/CoreUI/TrebuchetMS.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMS.ttf
+mv /System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMSBold.ttf
+mv /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMSBoldItalic.ttf
+mv /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf_ /System/Library/Fonts/CoreUI/TrebuchetMSItalic.ttf
+#Disable software updates
+#mv /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist_ /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist
+#mv /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist_ /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist
+echo "恢复备份完成"
+
+rm -fr /var/mobile/Library/Caches/com.apple.UIStatusBar
+rm -fr /var/root/Library/Caches/com.apple.keyboards
+rm -fr /var/mobile/Library/Caches/com.apple.keyboards
+echo "清除缓存完成"
+
+rm -rf /User/Documents/uncleyeung/pingfang85_13
+echo "删除:/User/Documents/uncleyeung/pingfang85_13及其子文件"
+echo "完成准备重启"
+echo "====="
+echo "============="
+echo "========================"
+echo "==================================="
+echo "感谢:对uncleyeung的支持"
+echo "首页:http://uncleyeung.gitbub.io"
+echo "源码:https://github.com/uncleyeung/uncleyeung.github.io"
+echo "备注:原生苹方字体缩小85%由心雨提供字体源文件"
+echo "请点击注销谢谢"
+if [[ ${CYDIA+@} ]]; then
+	eval "echo 'finish:restart' >&${cydia[0]}"
+fi
+exit 0
+
+
