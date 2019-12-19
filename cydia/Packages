@@ -259,10 +259,10 @@ Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 13.0), mobilesubstrate
 Conflicts: com.uncleyeung.pingfang85-13
 Filename: debs/com.uncleyeung.pingfang_13.deb
-Size: 33377240
-MD5sum: f5c4611d2bbc02683d5891c857a03498
-SHA1: 3c474d3d74a6dd0a59b463c22b9b38430feb35f1
-SHA256: 0e1d0ddc348d0f8e4aed68cbee2f708ee73d8c5fd59632281d80db7d41ba4082
+Size: 33377322
+MD5sum: 65df37957b7dd6e5b96ac5b6a09df2e8
+SHA1: 3a568a0e6fb13b079af0b05d8223c41f4e836cf6
+SHA256: 3a69636c9c1f15a4504c5e1f416a0fa910660cb6f4d2de0cb596e8c76ba53648
 Section: System
 Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: PingFangFont 85% IOS13(Disable Software Update)
