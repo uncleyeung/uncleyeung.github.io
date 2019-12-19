@@ -1,6 +1,6 @@
 Package: com.uncleyeung.pingfang85-13
 Name: PingFangFont 85% IOS13
-Version: 1.0.0
+Version: 1.0.1
 Depends: firmware (>= 13.0), mobilesubstrate
 Conflicts: com.uncleyeung.pingfang85-13
 Architecture: iphoneos-arm

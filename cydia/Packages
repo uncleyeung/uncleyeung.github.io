@@ -253,16 +253,16 @@ Name: PingFangFont 85% IOS12
 Sileodepiction: https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/json/sileo/fontnative.json
 
 Package: com.uncleyeung.pingfang85-13
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: uncleyeung <java.yang.bo@outlook.com>
 Depends: firmware (>= 13.0), mobilesubstrate
 Conflicts: com.uncleyeung.pingfang85-13
 Filename: debs/com.uncleyeung.pingfang_13.deb
-Size: 33377444
-MD5sum: c27bd937c04d6d85c34046736cbe3cc6
-SHA1: 1e952518cc9cef9649fb830828dcba2c542a15e8
-SHA256: 8a8f8d03271906b9b84bdcb1a5b902475f7aa705a85d0098402f5a257cc704ca
+Size: 33377240
+MD5sum: f5c4611d2bbc02683d5891c857a03498
+SHA1: 3c474d3d74a6dd0a59b463c22b9b38430feb35f1
+SHA256: 0e1d0ddc348d0f8e4aed68cbee2f708ee73d8c5fd59632281d80db7d41ba4082
 Section: System
 Homepage: https://uncleyeung.github.io/web/html/index_cydia.html
 Description: PingFangFont 85% IOS13(Disable Software Update)
