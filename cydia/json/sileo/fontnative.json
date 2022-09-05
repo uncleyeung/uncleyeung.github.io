@@ -1,6 +1,6 @@
 {
   "class": "DepictionTabView",
-  "headerImage": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/img/sileo/assets/header_font.png",
+  "headerImage": "https://raw.githubusercontent.com/vincenty1ung/vincenty1ung.github.io/master/cydia/img/sileo/assets/header_font.png",
   "minVersion": "0.3",
   "tabs": [
     {
@@ -35,7 +35,7 @@
           "screenshots": [
             {
               "accessibilityText": "Screenshot",
-              "url": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/web/img/background.jpg"
+              "url": "https://raw.githubusercontent.com/vincenty1ung/vincenty1ung.github.io/master/web/img/background.jpg"
             }
           ]
         },
@@ -62,7 +62,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "uncleYeung (uncle_yeung)",
+          "text": "vincenty1ung (uncle_yeung)",
           "title": "Author"
         },
         {
@@ -112,7 +112,7 @@
           "spacing": 40
         },
         {
-          "URL": "https://raw.githubusercontent.com/uncleyeung/uncleyeung.github.io/master/cydia/CydiaIcon.png",
+          "URL": "https://raw.githubusercontent.com/vincenty1ung/vincenty1ung.github.io/master/cydia/CydiaIcon.png",
           "alignment": 1,
           "class": "DepictionImageView",
           "cornerRadius": 0,

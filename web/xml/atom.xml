@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>uncleyeung&#39;s bloguncle_yeung</title>
   
-  <subtitle>uncleyeung.github.io</subtitle>
+  <subtitle>vincenty1ung.github.io</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="uncleyeung.github.io/"/>
+  <link href="vincenty1ung.github.io/"/>
   <updated>2018-03-10T06:38:20.000Z</updated>
-  <id>uncleyeung.github.io/</id>
+  <id>vincenty1ung.github.io/</id>
   
   <author>
     <name>杨 博</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>RESTful-Operating 2</title>
-    <link href="uncleyeung.github.io/2018/03/10/RESTful-Operating2/"/>
-    <id>uncleyeung.github.io/2018/03/10/RESTful-Operating2/</id>
+    <link href="vincenty1ung.github.io/2018/03/10/RESTful-Operating2/"/>
+    <id>vincenty1ung.github.io/2018/03/10/RESTful-Operating2/</id>
     <published>2018-03-10T06:23:32.000Z</published>
     <updated>2018-03-10T06:38:20.000Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>RESTful-Operating 1</title>
-    <link href="uncleyeung.github.io/2018/03/10/RESTful-Operating1/"/>
-    <id>uncleyeung.github.io/2018/03/10/RESTful-Operating1/</id>
+    <link href="vincenty1ung.github.io/2018/03/10/RESTful-Operating1/"/>
+    <id>vincenty1ung.github.io/2018/03/10/RESTful-Operating1/</id>
     <published>2018-03-10T05:50:37.000Z</published>
     <updated>2018-03-10T06:37:29.000Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="uncleyeung.github.io/2018/03/08/hello-world/"/>
-    <id>uncleyeung.github.io/2018/03/08/hello-world/</id>
+    <link href="vincenty1ung.github.io/2018/03/08/hello-world/"/>
+    <id>vincenty1ung.github.io/2018/03/08/hello-world/</id>
     <published>2018-03-08T14:28:25.000Z</published>
     <updated>2018-03-09T05:08:49.000Z</updated>
     

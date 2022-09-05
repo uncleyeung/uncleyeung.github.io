@@ -3,7 +3,7 @@
 #dpkg-deb -e 14991128_CallAssist_1.6.7_Cracked.deb tmp/DEBIAN
 #dpkg-deb -x 14991128_CallAssist_1.6.7_Cracked.deb tmp(普通解压)
 #chmod -R 0755 DEBIAN
-#dpkg-deb -b tmp/ com.uncleyeung.kuaidial.deb(打包)
+#dpkg-deb -b tmp/ com.vincenty1ung.kuaidial.deb(打包)
 
 # sudo   find ./ -name ".DS_Store" -depth -exec rm {} \;
 #1，禁止.DS_store生成：
