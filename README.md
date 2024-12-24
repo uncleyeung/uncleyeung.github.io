@@ -19,7 +19,7 @@
   </a>
 </p>
 
-# vincentyeung's Repo For Cydia
+# vincenty1ung's Repo For Cydia
 > * Source: https://github.com/vincenty1ung/vincenty1ung.github.io/
 > * Twitter: https://twitter.com/uncle_yeung
 > * Tumblr: https://www.tumblr.com/blog/uncleyeung
@@ -94,7 +94,7 @@
 > * 教育，其实也是一样的道理。一个好的称职的教师,不但要给学生以知识,还要教会学生自学的方法.
 > * 联合国教科文组织曾谈到:今后的文盲将不再是不识字的人,而是不会自学和学了知识不会应用的人。
 
-作者 [@vincentyeung]
+作者 [@vincenty1ung]
 <br>2019 年 03月 13日    
 
 ```flow
